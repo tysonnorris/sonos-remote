@@ -1,0 +1,21 @@
+{
+  "name": "sonos-remote",
+  "version": "0.0.1",
+  "description": "control sonos via ir (using lirc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "tysonnorris",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tysonnorris/sonos-remote.git"
+  },
+  "dependencies": {
+    "lirc_node": "alexbain/lirc_node#v0.0.4",
+    "sonos": "bencevans/node-sonos#v0.12.1",
+    "sonos-http-api": "github:jishi/node-sonos-http-api",
+    "sonos2": "jishi/node-sonos-discovery#v1.1.7"
+  }
+}
